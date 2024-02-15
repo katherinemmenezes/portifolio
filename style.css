@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(background.jpg);
+    background-image: url(./assets/background.jpg);
     background-repeat: no-repeat;
     height: 100vh;  /* para ocupar 100 da tela  vh: viewport*/
     box-sizing: border-box;
@@ -34,7 +34,11 @@ a{
 .apresentacao__conteudo__titulo
 {
     font-family: 'IM Fell English SC', sans-serif;
-    font-size: 36px;
+    font-size: 36px; 
+}
+.apresentacao__conteudo__titulo_2{
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 24px;
 }
 .apresentacao__conteudo__texto{
     font-family: 'IM Fell English SC', sans-serif;
@@ -52,19 +56,24 @@ a{
     justify-content: space-between;
  }
  .apresentacao__links__link{
-    background-color: #48ecbb;
-    width: 280px;
+    /* comentar automaticamente no CSS CTRL + K + C */
+    background-color: #48ecbb; 
+    border: 2px solid #0c0c0c;
+    width: 378px;
     text-align: center;
-    color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
     font-family: 'IM Fell English SC', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 21.5px 0 ; 
     text-decoration: none;  
-     display: flex;
+    display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
  }
- 
+ .apresentacao__links__link:hover{
+    background-color: rgba(3, 3, 3, 0.205);
+
+ }
  
