@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Inter:wght@400;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -33,11 +33,11 @@ a{
 }
 .apresentacao__conteudo__titulo
 {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'IM Fell English SC', serif;
     font-size: 36px;
 }
 .apresentacao__conteudo__texto{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IM Fell English SC', serif;
     font-size: 24px;
 }
 .img{
@@ -56,7 +56,7 @@ a{
     width: 280px;
     text-align: center;
     color: rgb(3, 3, 3);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IM Fell English SC', serif;
     font-size: 24px;
     font-weight: 600;
     border-radius: 16px;
