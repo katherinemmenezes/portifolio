@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Inter:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    /*height: 100vh;   para ocupar 100 da tela  vh: viewport*/
+    box-sizing: border-box;
+    overflow: auto;
+    color: #ffffff;
+}
+.cabecalho__menu__link{
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 24px;
+    color: #48ecbb;
+    text-decoration: none;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link:hover{
+    color:#ffffff
+ }
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 82px;
+    
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo
+{
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 36px; 
+}
+.titulo-destaque{
+    color: #48ecc8;
+}
+.apresentacao__conteudo__texto{
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 24px;
+}
+.apresentacao__links{
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    display:flex;
+    justify-content: space-between;
+ }
+.apresentacao__conteudo__titulo_2{
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 24px;
+}
+.apresentacao__links__link{
+    /* comentar automaticamente no CSS CTRL + K + C */
+    background-color: #48ecbb; 
+    border: 2px solid #0c0c0c;
+    width: 378px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 21.5px 0 ; 
+    text-decoration: none;  
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+ }
+ .apresentacao__links__link:hover{
+    background-color: rgba(3, 3, 3, 0.205);
+
+ }
+.img{
+    width: 480px;
+    border-radius: 10px;
+}
+
+ .rodape{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #48ecbb;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 20px;
+   
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    padding: 12px;
+
+ }
