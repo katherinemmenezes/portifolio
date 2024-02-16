@@ -5,16 +5,17 @@
 }
 
 body {
+    
     background-image: url(./assets/background.jpg);
     background-repeat: no-repeat;
-    height: 100vh;  /* para ocupar 100 da tela  vh: viewport*/
+    /*height: 100vh;   para ocupar 100 da tela  vh: viewport*/
     box-sizing: border-box;
     overflow: auto;
     color: #ffffff;
 }
 
 .titulo-destaque{
-    color: #48ecbb;
+    color: #48ecc8;
 }
 a{
     color: #ffffff;
@@ -23,7 +24,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 20%;
+    padding: 7% 15%;
+    gap: 82px;
+    
 }
 .apresentacao__conteudo {
     width: 615px;
@@ -45,8 +48,8 @@ a{
     font-size: 24px;
 }
 .img{
-    
     width: 480px;
+    border-radius: 10px;
 }
  .apresentacao__links{
     align-items: center;
@@ -76,4 +79,18 @@ a{
     background-color: rgba(3, 3, 3, 0.205);
 
  }
- 
+ .rodape{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #48ecbb;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 20px;
+   
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    padding: 12px;
+
+ }
