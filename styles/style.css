@@ -6,8 +6,7 @@
 
 body {
     
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/assets/background.jpg);
     /*height: 100vh;   para ocupar 100 da tela  vh: viewport*/
     box-sizing: border-box;
     overflow: auto;
@@ -53,7 +52,7 @@ body {
 }
 .apresentacao__conteudo__texto{
     font-family: 'IM Fell English SC', sans-serif;
-    font-size: 24px;
+    font-size: 25px;
 }
 .apresentacao__links{
     align-items: center;
@@ -106,4 +105,10 @@ body {
     width: 100%;
     padding: 12px;
 
+ }
+ .curriculo{
+    font-family: 'IM Fell English SC', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
  }
