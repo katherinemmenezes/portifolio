@@ -18,12 +18,12 @@ body {
     /*height: 100vh;   para ocupar 100 da tela  vh: viewport*/
     box-sizing: border-box;
     overflow: auto;
-    color:  #ffffff;
+    color: var(--cor-primaria);
 }
 .cabecalho__menu__link{
-    font-family: 'IM Fell English SC', sans-serif;
+    font-family: var(--fonte-padrao);
     font-size: 24px;
-    color: #48ecbb;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 .cabecalho{
@@ -34,7 +34,7 @@ body {
     gap: 80px;
 }
 .cabecalho__menu__link:hover{
-    color: #ffffff;
+    color:var(--cor-primaria);
  }
 .apresentacao{
     display: flex;
@@ -52,14 +52,14 @@ body {
 }
 .apresentacao__conteudo__titulo
 {
-    font-family:'IM Fell English SC', sans-serif;
+    font-family:var(--fonte-padrao);
     font-size: 36px; 
 }
 .titulo-destaque{
-    color: #48ecbb;
+    color: var(--cor-secundaria);
 }
 .apresentacao__conteudo__texto{
-    font-family: 'IM Fell English SC', sans-serif;
+    font-family: var(--fonte-padrao);
     font-size: 25px;
 }
 .apresentacao__links{
@@ -70,17 +70,17 @@ body {
     justify-content: space-between;
  }
 .apresentacao__conteudo__titulo_2{
-    font-family:'IM Fell English SC', sans-serif;
+    font-family: var(--fonte-padrao);
     font-size: 24px;
 }
 .apresentacao__links__link{
     /* comentar automaticamente no CSS CTRL + K + C */
-    background-color: #48ecbb;
-    border: 2px solid  #000000;
+    background-color: var(--cor-secundaria); 
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
-    color: #ffffff;
-    font-family: 'IM Fell English SC', sans-serif;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-padrao);
     font-size: 24px;
     font-weight: 600;
     border-radius: 8px;
@@ -91,7 +91,7 @@ body {
     gap: 16px;
  }
  .apresentacao__links__link:hover{
-    background-color: #5350502c;
+    background-color: var(--cor-hover);
  }
 .img{
     width: 480px;
@@ -100,9 +100,9 @@ body {
 
  .rodape{
     text-align: center;
-    color:  #ffffff;
-    background-color:#48ecbb;
-    font-family: 'IM Fell English SC', sans-serif;
+    color: var(--cor-primaria);
+    background-color:var(--cor-secundaria);
+    font-family: var(--fonte-padrao);
     font-size: 20px;
    
    position: fixed;
@@ -114,8 +114,8 @@ body {
 
  }
  .curriculo{
-    font-family: 'IM Fell English SC', sans-serif;
+    font-family: var(--fonte-padrao);
     font-size: 25px;
-    color:#ffffff;
+    color:var(--cor-primaria);
     text-decoration: none;
  }
