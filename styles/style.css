@@ -18,12 +18,12 @@ body {
     /*height: 100vh;   para ocupar 100 da tela  vh: viewport*/
     box-sizing: border-box;
     overflow: auto;
-    color: var(--cor-primaria);
+    color:  #ffffff;
 }
 .cabecalho__menu__link{
-    font-family: var(--fonte-padrao);
+    font-family: 'IM Fell English SC', sans-serif;
     font-size: 24px;
-    color: var(--cor-secundaria);
+    color: #48ecbb;
     text-decoration: none;
 }
 .cabecalho{
@@ -34,7 +34,7 @@ body {
     gap: 80px;
 }
 .cabecalho__menu__link:hover{
-    color:var(--cor-primaria);
+    color: #ffffff;
  }
 .apresentacao{
     display: flex;
@@ -52,14 +52,14 @@ body {
 }
 .apresentacao__conteudo__titulo
 {
-    font-family:var(--fonte-padrao);
+    font-family:'IM Fell English SC', sans-serif;
     font-size: 36px; 
 }
 .titulo-destaque{
     color: var(--cor-secundaria);
 }
 .apresentacao__conteudo__texto{
-    font-family: var(--fonte-padrao);
+    font-family: 'IM Fell English SC', sans-serif;
     font-size: 25px;
 }
 .apresentacao__links{
@@ -70,7 +70,7 @@ body {
     justify-content: space-between;
  }
 .apresentacao__conteudo__titulo_2{
-    font-family: var(--fonte-padrao);
+    font-family:'IM Fell English SC', sans-serif;
     font-size: 24px;
 }
 .apresentacao__links__link{
@@ -80,7 +80,7 @@ body {
     width: 378px;
     text-align: center;
     color: var(--cor-primaria);
-    font-family: var(--fonte-padrao);
+    font-family: 'IM Fell English SC', sans-serif;
     font-size: 24px;
     font-weight: 600;
     border-radius: 8px;
@@ -102,7 +102,7 @@ body {
     text-align: center;
     color: var(--cor-primaria);
     background-color:var(--cor-secundaria);
-    font-family: var(--fonte-padrao);
+    font-family: 'IM Fell English SC', sans-serif;
     font-size: 20px;
    
    position: fixed;
@@ -114,7 +114,7 @@ body {
 
  }
  .curriculo{
-    font-family: var(--fonte-padrao);
+    font-family: 'IM Fell English SC', sans-serif;
     font-size: 25px;
     color:var(--cor-primaria);
     text-decoration: none;
