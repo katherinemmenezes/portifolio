@@ -6,7 +6,7 @@
 
 body {
     
-    background-image: url(/assets/background.jpg);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     /*height: 100vh;   para ocupar 100 da tela  vh: viewport*/
     box-sizing: border-box;
