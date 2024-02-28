@@ -22,7 +22,7 @@ body {
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-padrao);
-    font-size: 24px;
+    font-size: 1,5rem;
     color: var(--cor-secundaria);
     text-decoration: none;
 }
@@ -45,7 +45,7 @@ body {
     
 }
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -53,14 +53,14 @@ body {
 .apresentacao__conteudo__titulo
 {
     font-family:var(--fonte-padrao);
-    font-size: 36px; 
+    font-size: 2,25rem; 
 }
 .titulo-destaque{
     color: var(--cor-secundaria);
 }
 .apresentacao__conteudo__texto{
     font-family: var(--fonte-padrao);
-    font-size: 25px;
+    font-size: 1,5rem;
 }
 .apresentacao__links{
     align-items: center;
@@ -71,17 +71,17 @@ body {
  }
 .apresentacao__conteudo__titulo_2{
     font-family: var(--fonte-padrao);
-    font-size: 24px;
+    font-size: 1,5rem;
 }
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     /* comentar automaticamente no CSS CTRL + K + C */
     background-color: var(--cor-secundaria); 
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     color: var(--cor-primaria);
     font-family: var(--fonte-padrao);
-    font-size: 24px;
+    font-size: 1,5rem;
     font-weight: 600;
     border-radius: 8px;
     padding: 21.5px 0 ; 
@@ -90,32 +90,43 @@ body {
     justify-content: center;
     gap: 16px;
  }
- .apresentacao__links__link:hover{
+ .apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
  }
-.img{
-    width: 480px;
+.apresentacao_imagem{
+    width: 50%;
     border-radius: 10px;
 }
 
  .rodape{
+    padding: 24px;
     text-align: center;
     color: var(--cor-primaria);
     background-color:var(--cor-secundaria);
     font-family: var(--fonte-padrao);
-    font-size: 20px;
-   
-   position: fixed;
-    bottom: 0;
-    left: 0;
+    font-size: 1,25rem;
     
-    width: 100%;
-    padding: 12px;
+   
 
  }
  .curriculo{
     font-family: var(--fonte-padrao);
-    font-size: 25px;
+    font-size: 1,56rem;
     color:var(--cor-primaria);
     text-decoration: none;
+ }
+ @media(max-width:1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
  }
